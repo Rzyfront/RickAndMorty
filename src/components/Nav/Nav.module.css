@@ -1,0 +1,91 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    top: 5%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgb(226,220,199);
+    background: -moz-linear-gradient(0deg, rgba(226,220,199,1) 0%, rgba(255,254,237,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(226,220,199,1) 0%, rgba(255,254,237,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(226,220,199,1) 0%, rgba(255,254,237,1) 50%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2dcc7",endColorstr="#ffffff",GradientType=1
+);
+
+}
+
+.searchBar{
+    display: flex;
+}
+
+.but{
+    font-weight: bold;
+    width: 80px;
+    padding: 10px;   
+    border-radius: 25px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background: rgb(163,231,214);
+    background: -moz-linear-gradient(90deg, rgba(163,231,214,1) 0%, rgb(174, 219, 208) 50%, rgba(163,231,214,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(163,231,214,1) 0%, rgb(174, 219, 208) 50%, rgba(163,231,214,1) 100%);
+    background: linear-gradient(90deg, rgba(163,231,214,1) 0%, rgb(174, 219, 208) 50%, rgba(163,231,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a3e7d6",endColorstr="#a3e7d6",GradientType=1);
+    border-bottom: solid 0.01rem rgb(0, 0, 0);
+}
+
+.titulo{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 30px;
+    color: #A3E7D6;
+}
+
+.but:hover{
+    color: aqua;
+    background: #253d37;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 2);
+}
+
+.but:active {
+    transform: translatex(2px);
+    box-shadow: 0 5px #666;
+    background: rgb(163,231,214);;
+  }
+.inputbar{
+    width: 210px;
+    color: #629185de;
+    background-color: rgba(255, 240, 252, 0);
+    border: none;
+    border-bottom: 2px solid #629185a9;
+    padding: 5px;
+    padding-left: 20px;
+    margin-right: 1%;
+}
+
+.inputbar:hover{
+    color: #6ea798;
+    outline: none;
+    box-shadow: 0 5px 5px -3px #A3E7D6;
+    border-bottom: 2px solid #A3E7D6;
+}
+
+.inputbar:focus {
+    color: #6ea798;
+    outline: none;
+    box-shadow: 0 5px 5px -3px #A3E7D6;
+    border-bottom: 2px solid #A3E7D6;
+  }
+
+.logo{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-left: 10px;
+    float: left;
+    margin-right: auto;
+    width: 40px;
+}

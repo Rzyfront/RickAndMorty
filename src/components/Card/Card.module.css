@@ -1,0 +1,88 @@
+.card{
+    display: flex;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 1px #A3E7D6;
+    opacity: 0.9;
+    transition: 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    align-self: center;
+    margin: 0 auto;
+}
+
+.card:hover{
+    opacity: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+}
+
+.descrip{
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 0px;
+    bottom: 0px;
+    background: rgb(217,255,245);
+    background: -moz-linear-gradient(0deg, rgba(217,255,245,0.6502800949481355) 40%, rgba(255,255,255,0) 98%);
+    background: -webkit-linear-gradient(0deg, rgba(217,255,245,0.6502800949481355) 40%, rgba(255,255,255,0) 98%);
+    background: linear-gradient(0deg, rgba(217,255,245,0.6502800949481355) 40%, rgba(255,255,255,0) 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9fff5",endColorstr="#ffffff",GradientType=1);  
+}
+
+.descrip h2{
+   text-align: start;   
+   padding-left: 10px;
+}
+
+.imgCard{
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.cardBut{
+    font-weight: bolder;
+    right: 0%;
+    position: absolute;
+    border: #A3E7D6;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background: rgb(163,231,214);
+    background: -moz-linear-gradient(90deg, rgba(163,231,214,1) 0%, rgb(174, 219, 208) 50%, rgba(163,231,214,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(163,231,214,1) 0%, rgb(174, 219, 208) 50%, rgba(163,231,214,1) 100%);
+    background: linear-gradient(90deg, rgba(163,231,214,1) 0%, rgb(174, 219, 208) 50%, rgba(163,231,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a3e7d6",endColorstr="#a3e7d6",GradientType=1);
+    border-bottom: solid 0.01rem rgb(0, 0, 0);
+}
+
+.cardBut:hover{
+    color: aqua;
+    background: #253d37;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 2);
+}
+
+.cardBut:active{
+    transform: translatex(2px);
+    box-shadow: 0 5px #666;
+    background: rgb(163,231,214);;
+}
+
+
+.nick{
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;  
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
